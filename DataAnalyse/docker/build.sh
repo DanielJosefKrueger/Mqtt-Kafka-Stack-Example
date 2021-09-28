@@ -1,1 +1,1 @@
-docker build . --tag dk-producer:0.1
+docker build . --tag dk-analyse:0.1
