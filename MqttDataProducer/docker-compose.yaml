@@ -20,5 +20,13 @@ services:
       - zookeeper
   hivemq:
     image: 'dk-hivemq:0.1'
+    ports:
+      - '1883:1883'
     depends_on:
       - kafka
+  producer:
+    image: 'dk-producer:0.1'
+    environment:
+      - BROKER_HOST=hivemq
+    depends_on:
+      - hivemq
