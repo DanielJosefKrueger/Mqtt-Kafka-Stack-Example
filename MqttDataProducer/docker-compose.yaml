@@ -19,6 +19,6 @@ services:
     depends_on:
       - zookeeper
   hivemq:
-    image: 'dk/hivemq:latest'
+    image: 'dk-hivemq:0.1'
     depends_on:
       - kafka

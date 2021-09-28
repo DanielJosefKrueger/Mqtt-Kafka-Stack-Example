@@ -1,1 +1,1 @@
-docker build . --tag dk/hivemq:0.1
+docker build . --tag dk-hivemq:0.1
