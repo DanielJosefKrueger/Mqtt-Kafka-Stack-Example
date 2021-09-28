@@ -22,3 +22,5 @@ services:
     image: 'dk-hivemq:0.1'
     depends_on:
       - kafka
+    links:
+      - "kafka:apache-kafka"
