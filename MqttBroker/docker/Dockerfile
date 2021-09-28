@@ -1,2 +1,2 @@
-FROM hivemq/hivemq4:4.7.1
-RM /opt/hivemq/extensions/hivemq-kafka-extension/.DISABLED
+FROM hivemq/hivemq4:4.6.4
+RUN RM /opt/hivemq/extensions/hivemq-kafka-extension/DISABLED
