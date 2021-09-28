@@ -1,0 +1,1 @@
+docker build . --tag dk-producer:0.1
